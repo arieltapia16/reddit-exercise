@@ -29,40 +29,28 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Exercise requirements
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+[x] Title (at its full length, so take this into account when sizing your cells)
+[x] Author
+[x] entry date, following a format like “x hours ago” 
+[x] A thumbnail for those who have a picture.
+[x] Number of comments
+[x] Unread status
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Missing parts 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+- Pagination support
+- Dismiss Post Button (remove the cell from list. Animations required)
+- Dismiss All Button (remove all posts. Animations required)
+- Support split layout (left side: all posts / right side: detail post)
+- Responsive design (partially)
+- unit tests
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## The app is using the json file, the app is not consuming data from the api 
