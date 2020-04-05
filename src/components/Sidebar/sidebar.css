@@ -38,6 +38,9 @@
   background-color: blue;
   margin-right: 10px;
 }
+.no-viewed.hidden {
+  visibility: hidden;
+}
 
 .author {
   margin-right: 20px;

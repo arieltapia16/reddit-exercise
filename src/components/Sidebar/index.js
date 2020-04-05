@@ -4,11 +4,12 @@ import './sidebar.css';
 
 const SideBar  = props => {
   const sidebarGroup = props.listings.map( (post) => {
+    const viewed = props.viewedPosts.includes(post.data.id)
     return (
       <div key={post.data.id} className="sidebar-item"> 
         <button className="sidebar-post" onClick={() => props.selectPost(post)}>
           <div className="title">
-            <div className="no-viewed"/>
+            <div className={'no-viewed ' + (viewed ? 'hidden' : '')}/>
               <div className="author">{post.data.author}</div>
               <span>{moment.unix(post.data.created_utc).fromNow()}</span>
           </div>

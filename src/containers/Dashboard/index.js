@@ -42,6 +42,7 @@ const mapDispatchToProps = dispatch => ({
 })
 
 const mapStateToProps = state => {
+  console.log(state)
   return {
     listings: get(state.initialData, 'result.data.children', []),
     postSelected: state.post.postSelected,
