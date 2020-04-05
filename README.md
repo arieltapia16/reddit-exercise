@@ -33,12 +33,12 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ## Exercise requirements
 
 
-[x] Title (at its full length, so take this into account when sizing your cells)
-[x] Author
-[x] entry date, following a format like “x hours ago” 
-[x] A thumbnail for those who have a picture.
-[x] Number of comments
-[x] Unread status
+[x] Title (at its full length, so take this into account when sizing your cells) <br />
+[x] Author <br />
+[x] entry date, following a format like “x hours ago” <br />
+[x] A thumbnail for those who have a picture. <br />
+[x] Number of comments <br />
+[x] Unread status <br />
 
 
 # Missing parts 
