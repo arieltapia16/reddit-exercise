@@ -1,6 +1,8 @@
 import { combineReducers } from 'redux';
-import initialDataReducer from './initialDataReducer'
+import initialDataReducer from './initialDataReducer';
+import postReducer from './postReducer';
 
 export default combineReducers({
-  initialData: initialDataReducer
+  initialData: initialDataReducer,
+  post: postReducer
 });
